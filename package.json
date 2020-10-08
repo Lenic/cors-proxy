@@ -7,6 +7,7 @@
   "scripts": {
     "start": "cross-env micro --listen=tcp://0.0.0.0:$PORT",
     "dev": "micro-dev",
+    "build": "echo ok",
     "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
